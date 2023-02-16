@@ -15,6 +15,7 @@ pipeline{
    stage('Deploy'){
       steps{
         echo 'Deploying'
+        sh "cat kp.txt " ->for showing error
         
       }
     }
